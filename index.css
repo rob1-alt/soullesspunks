@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: 'ApfelGrotezk';
+    src: url('./src/fonts/web/ApfelGrotezk-Fett.woff');
+    font-family: 'ApfelGrotezk-Regular';
+    src: url(./src/fonts/web/ApfelGrotezk-Regular.woff);
+}
+
+/*HEADER WITH NAV MENU*/
+header{
+    background: rgba(24, 62, 232, 0.29);
+    z-index: 0;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 8vw;
+}
+
+ul{
+    z-index: 9999;
+    margin-right: 4vw;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+/*HOMEPAGE*/
+
+.wrapperHomepage{
+    margin-top: 5vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+h1.mainTitle{
+    max-width: 80vh;
+    font-weight: 900;
+}
+h2{
+    font-weight: 600;
+}
+
+.halfLeft{
+    margin-left: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.gifMain{
+    width: 40vw;
+}
+
+.test{
+    background: blue;
+}
+
+
+body{
+    font-family: 'ApfelGrotezk';
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: aliceblue;
+}
+
+h2{
+    font-family: 'ApfelGrotezk-Regular';
+}
+
+
+button{
+    width: 15vw;
+    height: 4vh;
+    text-align: center;
+    background:rgba(24, 62, 232);
+    border: 0;
+    font-size: 1.2em;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+button:hover{
+    transition-duration: 0.2s;
+    background:rgba(24, 62, 232, 0.70);
+
+}
