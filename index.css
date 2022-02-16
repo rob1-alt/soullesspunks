@@ -1,9 +1,12 @@
 
 @font-face {
-    font-family: 'ApfelGrotezk';
-    src: url('./src/fonts/web/ApfelGrotezk-Fett.woff');
     font-family: 'ApfelGrotezk-Regular';
-    src: url(./src/fonts/web/ApfelGrotezk-Regular.woff);
+    src: url(./src/fonts/web/ApfelGrotezk-Regular.woff2);
+}
+
+
+html{
+    font-family: 'ApfelGrotezk';
 }
 
 /*HEADER WITH NAV MENU*/
@@ -36,12 +39,12 @@ li{
 }
 
 ul{
-    font-weight: 900;
     z-index: 9999;
     justify-content: flex-end;
     display: flex;
     flex-direction: row;
     max-width: 50vw;
+    font-size: 1.5em;
     
 }
 
@@ -61,7 +64,6 @@ a{
 
 h1.mainTitle{
     max-width: 80vh;
-    font-weight: 900;
 }
 h2{
     font-weight: 600;
@@ -84,7 +86,7 @@ h2{
 
 
 body{
-    font-family: 'ApfelGrotezk';
+    font-family: 'ApfelGrotezk-Regular';
     margin: 0;
     padding: 0;
     background: #000;
