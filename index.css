@@ -8,10 +8,27 @@
 
 /*HEADER WITH NAV MENU*/
 header{
-    background: rgba(24, 62, 232, 0.29);
+    position: sticky;
     z-index: 0;
+    border: 0.5px solid;
 }
 
+.wrapperHead{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.right{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoHead{
+    max-width: 5vw;
+    margin-left: 3vw;
+}
 li{
     list-style: none;
     text-decoration: none;
@@ -19,13 +36,18 @@ li{
 }
 
 ul{
+    font-weight: 900;
     z-index: 9999;
-    margin-right: 4vw;
     justify-content: flex-end;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    max-width: 50vw;
     
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
 /*HOMEPAGE*/
@@ -46,6 +68,7 @@ h2{
 }
 
 .halfLeft{
+    margin-top: 10vw;
     margin-left: 2vw;
     justify-content: center;
     align-items: center;
