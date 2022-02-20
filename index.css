@@ -134,6 +134,7 @@ button:hover{
         max-width: 20vw;
     }
     .wrapperHomepage{
+        margin: 10px;
         display: flex;
         flex-direction: column;
     }
@@ -141,10 +142,18 @@ button:hover{
         text-align: center;
     }
     .halfRight{
+        padding-top: 12vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
     .moreButton{
         width: 200px;
     }
-  }
+
+    .gifMain{
+        width: 55vw;
+    }
+}
