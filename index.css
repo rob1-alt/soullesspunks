@@ -48,6 +48,11 @@ ul{
     
 }
 
+li:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
 a{
     text-decoration: none;
     color: aliceblue;
@@ -114,3 +119,32 @@ button:hover{
     background:rgba(24, 62, 232, 0.70);
 
 }
+
+
+/*RESPONSIVE FOR PHONES*/
+@media screen and (max-width:768px){
+    ul{
+        visibility: hidden;
+        color: blueviolet;
+    }
+    .logoHead{
+        display: block;
+        margin-left: auto;
+        margin-right:2fr;
+        max-width: 20vw;
+    }
+    .wrapperHomepage{
+        display: flex;
+        flex-direction: column;
+    }
+    .halfLeft{
+        text-align: center;
+    }
+    .halfRight{
+
+    }
+
+    .moreButton{
+        width: 200px;
+    }
+  }
